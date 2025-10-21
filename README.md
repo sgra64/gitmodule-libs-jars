@@ -30,6 +30,7 @@ drwxr-xr-x 1       0 Aug 24 20:13 ./
 drwxr-xr-x 1       0 Aug 24 18:37 ../
 -rw-r--r-- 1     569 Aug 24 20:34 .bom          <-- 'bill-of-materials' file
 drwxr-xr-x 1       0 Aug 24 18:39 .git/
+-rw-r--r-- 1     518 Oct 21 12:15 .gitignore
 drwxr-xr-x 1       0 Aug 24 20:14 jackson/
 drwxr-xr-x 1       0 Aug 24 18:31 jacoco/
 drwxr-xr-x 1       0 Aug 24 20:32 junit/
@@ -79,6 +80,7 @@ The scaffold of library packages and *.jar*-files in the `libs` directory is:
 <libs>                  # branch directory
  |
  +--.bom                # 'bill-of-materials' (BOM) with list of '.jar'-files
+ +--.gitignore          # file with patterns for git to ignore
  |
  +-<jackson>                    # library for processing JSON data in Java
  |  +--jackson-annotations-2.19.0.jar
